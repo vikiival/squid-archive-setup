@@ -21,7 +21,7 @@ services:
       - REDIS_URI=redis://redis:6379/0
       - FORCE_HEIGHT=true
       - BLOCK_HEIGHT=0 # starting block height
-      - WS_PROVIDER_ENDPOINT_URI=wss://basilisk.api.onfinality.io/public-ws
+      - WS_PROVIDER_ENDPOINT_URI=wss://basilisk-kodadot.hydration.cloud
       - BUNDLE_TYPES=/configs/typesBundle.json
     volumes:
       - "./typesBundle.json:/configs/typesBundle.json"
